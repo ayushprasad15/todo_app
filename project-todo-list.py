@@ -6,7 +6,7 @@ print("time is : ", clock)
 
 while True:
     user_action = input("type add,show,edit,complete or exit: \n")
-    # user_action = user_action.strip()
+    user_action = user_action.strip()
 
     if user_action.startswith("add"):
         todo = user_action[4:]
