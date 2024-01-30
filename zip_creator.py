@@ -10,4 +10,4 @@ def make_archive(filepaths, dest_dir):
 
 
 if __name__ == "__main__":
-    make_archive(filepaths=["bonus8.py", "bous1.py"], dest_dir="dest3.py")
+    make_archive(filepaths=["bonus8.py", "bonus3.py"], dest_dir="dest3.py")

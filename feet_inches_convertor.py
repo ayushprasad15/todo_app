@@ -1,4 +1,4 @@
-from bagge import convert
+from inches_mind import convert
 from billo import parse
 
 feet_inches = input("enter feet and inches: ")
