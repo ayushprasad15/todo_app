@@ -1,4 +1,4 @@
-from function import get_todos, write_todos
+from functions import get_todos, write_todos
 
 import time
 clock = time.strftime("%b %d ,%Y %H:%M:%S")
@@ -30,7 +30,7 @@ while True:
             number = number - 1
             todos = get_todos()
 
-            new_todo = input("enter new todo: ")
+            new_todo = input("enter new todo.txt: ")
             todos[number - 1] = new_todo + '\n'
             write_todos(todos, )
 
@@ -48,7 +48,7 @@ while True:
 
             todos.pop(index)
             write_todos(todos, )
-            message = f"todo {todo_to_remove} was removed from the list. "
+            message = f"todo.txt {todo_to_remove} was removed from the list. "
             print(message)
         except IndexError:
             print("invalid index .")
